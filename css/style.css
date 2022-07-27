@@ -1,23 +1,22 @@
-.text {
-   padding: 20px;
-   margin: 20px;
-   border: 1px solid black;
-   width: 300px;
-}
-
-img {
-padding: 20px;
-}
-
 .box {
-   border: 3px solid black;
-   margin-bottom: 50px;
-   height: 800px;
-   display: flex; 
-  
+   display: flex;
+   max-width: 1000px;
+   border: 5px solid black;
+   height: 400px;
 }
 
-.text-4 {
-align-self: center;
-order: -1 ;
+
+.text {
+   border: 3px solid rosybrown;
+   width: 500px;
+}
+
+.text:nth-child(1) {
+
+
+}
+
+.text:nth-child(2) {
+
+
 }
